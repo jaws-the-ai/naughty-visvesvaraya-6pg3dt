@@ -1,0 +1,59 @@
+/* Basic Reset */
+body {
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  margin: 20px;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 12px;
+}
+
+/* Input for adding/searching shows */
+input[type="text"] {
+  padding: 8px;
+  width: 240px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+/* Add button */
+button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Search result list */
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* Show list with checkbox */
+label {
+  cursor: pointer;
+}
